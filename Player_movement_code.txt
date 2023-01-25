@@ -1,0 +1,8 @@
+Function: player move "up"
+	The player moves one block north
+Function: player move "down"
+	The player moves one block south
+Function: player move "left"
+	The player moves one block west
+Function: player move "right"
+	The player moves one block east
