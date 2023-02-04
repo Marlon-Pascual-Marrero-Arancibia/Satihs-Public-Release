@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://khyle-daniels-makoto-sprite.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 6.5, 18.5 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 26, 47 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2( -26.5, -67.5 )
+shape = SubResource( 1 )
+
+[node name="Khyle-daniels-makoto-sprite" type="Sprite" parent="Player"]
+position = Vector2( -19, -67 )
+scale = Vector2( 0.103226, 0.0965228 )
+texture = ExtResource( 1 )
